@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuite name="test_delbook.addTest-20201030184458" tests="1" time="0.008" failures="0" errors="1">
+	<testcase classname="test_delbook.addTest" name="test_del" time="0.008">
+		<error type="AssertionError" message=""><![CDATA[Traceback (most recent call last):
+  File "C:\Users\Vidit\GitProjects\PyMicroservices\Source\test_delbook.py", line 12, in test_del
+    assert result2
+AssertionError
+]]></error>
+	</testcase>
+	<system-out><![CDATA[Book: {'Title': 'Book1', 'Author': 'Author1'}
+Book: {'Title': 'Book1', 'Author': 'Author1'}
+books: [{"Title": "Book1", "Author": "Author1"}]
+]]></system-out>
+	<system-err><![CDATA[]]></system-err>
+</testsuite>
